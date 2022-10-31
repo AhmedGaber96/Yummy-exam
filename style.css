@@ -1,0 +1,148 @@
+body{
+    background-color: black;
+}
+.sideBar{
+    height: 100vh;
+    left: -240px;
+    z-index: 99999999;
+    top: 0;
+    bottom: 0;
+}
+.sideBar1{
+    width: 60px;
+    height: 100%;
+    background-color: #f8f6f6;
+}
+.Pointer{
+    cursor: pointer;
+}
+.slideInformation{
+    width: 240px;
+    height: 100%;
+    background-color: black;
+}
+.listcontainer{ 
+visibility: hidden;
+margin-top: 100px;
+}
+.listcontainer ul li a{  
+    padding-top: 50px;
+}
+.socialMediaIcon{
+    display: flex;
+    color: gray;
+}
+.one{
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.layer{
+    position: absolute;
+    background-color: rgba(230, 222, 222, 0.7);
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    padding:7px;
+    transition: all 0.9s;
+    display: none;
+}
+#mainDisplayContainer{
+    display: block;
+}
+.one:hover .layer{
+    top: 0%;
+    display: block;
+    cursor: pointer;
+}
+#mainContainer{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+#searchBar{
+    width: 70%;
+    margin: auto;
+    visibility: hidden;   
+}
+.inputForm{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    font-weight: lighter;  
+    box-shadow: 0px 10px 10px rgba(241, 237, 237, 0.347);
+    
+}
+.inputForm:focus {
+    border-color: #48d2ee !important ;
+  }
+  .form-control
+{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	border-radius: 0;
+	color: #fff;
+	font-weight: 800;
+}
+.form-control:focus
+{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	border-radius: 0;
+}
+
+.informationBOX{
+    width: 100%;
+    background-color: black;
+    display: none;
+    
+}
+.youtube{
+    background-color: #F70000;
+}
+.two{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contactBox{
+    width: 70%;
+    margin: auto;
+   
+
+}
+#namealert{
+    display: none;
+}
+#emailalert{
+    display: none;
+}
+#phonealert{
+    display: none;
+}
+#agealert{
+    display: none;
+}
+#passwordalert{
+    display: none;
+}
+#repasswordalert{
+    display: none;
+}
+#conactContainer{
+    display: none;
+}
+
+
+
+
+

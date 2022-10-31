@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummmy - Index</title>
+    <link rel="short cut icon " type="img" href="img/Bootstrap_logo.svg.png">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- s i d e     b a r -->
+    <nav class="d-flex position-fixed sideBar">
+      <div class="slideInformation p-4 d-flex flex-column justify-content-between">
+        <div class="listcontainer">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none text-white fw-lighter d-inline-block " id="searchNav">search</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white fw-lighter d-inline-block" id="CategoriesNav">Categories</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white fw-lighter d-inline-block " id="AreaNav">Area</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white fw-lighter d-inline-block " id="IngredientsNav">Ingredients</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white fw-lighter d-inline-block " id="ContactUsNav">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="socialMediaIcon mb-2">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter ms-3"></i>
+            <i class="fas fa-globe ms-3"></i>
+           </div>
+           <div>
+            <p>
+              Copyright Â© 2019 All Rights Reserved.
+            </p>
+           </div>
+        </div>
+      </div>
+      <div class=" sideBar1 d-flex flex-column justify-content-between align-items-center py-4">
+        <img src="img/logo.png" alt="" class="w-75">
+        <i class="fa fa-align-justify fs-4 Pointer" id="sideBarIcon"></i>
+        <div class="d-flex flex-column">
+          <i class="fas fa-globe fs-5 mb-3 Pointer"></i>
+          <i class="fas fa-share-alt fs-5 Pointer"></i>
+        </div>
+      </div>
+    </nav>
+    <section id="searchBar" class="mb-5 p-3">
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" class="inputForm" placeholder="Search by Name" id="serByName">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="inputForm " placeholder="Search by First letter...">
+        </div>
+
+      </div>
+
+    </section>
+    <!-- d i s p l a y    c o n t a i n e r  -->
+    <section id="mainDisplayContainer">
+      <div id="mainContainer">
+        <div class="informationBOX">
+          <div class="row" id="singleMeal">
+          </div>
+        </div>
+        <div class="row add gy-5" >
+          
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <section id="conactContainer">
+      <div class="contactBox text-center">
+        <h2 class="fw-lighter text-white">ContacUs...</h2>
+        <div class="row gy-5 mt-4">
+          <div class="col-md-6">
+            <input type="text" class="inputForm" placeholder="Enter Your Name" id="name">
+            <div class="alert mt-1 alert-danger  " id="namealert" role="alert" >
+							Special Characters and Numbers not allowed
+						</div>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="inputForm" placeholder="Enter Email"id="email">
+            <div class="alert mt-1 alert-danger " id="emailalert" role="alert">
+							Enter valid email. *Ex: xxx@yyy.zzz
+						</div>
+          </div>
+          <div class="col-md-6">
+            <input type="number" class="inputForm"placeholder="Enter phone" id="phone">
+            <div class="alert mt-1 alert-danger  " id="phonealert" role="alert">
+							Enter valid Phone Number
+						</div>
+          </div>
+          <div class="col-md-6">
+            <input type="number" class="inputForm" placeholder="Enter Age" id="age">
+            <div class="alert mt-1 alert-danger  " id="agealert" role="alert">
+							Enter valid Age
+						</div>
+          </div>
+          <div class="col-md-6">
+            <input type="password" class="inputForm" placeholder="Enter Password" id="password">
+            <div class="alert mt-1 alert-danger  " id="passwordalert" role="alert">
+							Enter valid password *Minimum eight characters, at least one letter and one number:*
+						</div>
+          </div>
+          <div class="col-md-6">
+            <input type="password" class="inputForm" placeholder="Enter RePassword" id="rePassword">
+            <div class="alert mt-1 alert-danger  " id="repasswordalert" role="alert">
+							Enter valid Repassword
+						</div>
+          </div>
+          
+        </div>
+        <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger mt-5">Submit</button>
+        
+
+      </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-3.6.1.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
